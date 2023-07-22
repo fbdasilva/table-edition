@@ -1,0 +1,43 @@
+.table-container{
+    display: flex;
+    flex-direction: column;
+    min-width: 40rem;
+    background-color: rgba(226, 235, 242, 0.8);
+    box-shadow: 0 0 2.5rem rgba(0, 0, 0, 0.1);
+    max-height: 60rem;
+    overflow-y: auto;
+}
+
+.table-container table{
+    border-collapse: collapse;
+    text-align: center;
+}
+
+.table-container td, th{
+    background-color: rgba(236, 232, 232, 0.5);
+    border: 0.1rem solid rgba(244, 237, 237, 0.9);
+    padding: 1rem;
+}
+
+.table-container th{
+    background-color: rgba(192, 204, 219, 0.729);
+}
+
+.table-container tbody tr:hover {
+    background-color: rgba(227, 234, 244, 0.6);
+}
+
+.filter-container{
+    display: flex;
+    justify-content: space-around;
+}
+
+.add-filter{
+    padding: 0.2rem;
+    font-size: 0.8rem;
+}
+
+.add-filter span{
+    border-bottom: 0.05rem solid rgb(194, 190, 190);
+}
+
